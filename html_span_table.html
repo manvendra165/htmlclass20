@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>span in table</title>
+	<style>
+		table,th,td{
+			border:1px solid black;
+			border-collapse: collapse;
+		}
+		th,td{
+			padding: 5px;
+			text-align: left;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<h2>cell that span two rows</h2>
+	<table style="width: 50%">
+		<caption>EMPLOYEE DETAILS</caption>
+		<tr>
+			<th>Name:</th>
+			<td>Bill Gates</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone</th>
+			<td>1234567890</td>
+		</tr>
+		<tr>
+			<td>9876543210</td>
+		</tr>
+		
+	</table>
+
+</body>
+</html>
